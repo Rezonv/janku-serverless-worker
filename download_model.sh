@@ -8,7 +8,7 @@ USER_AGENT="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 TOKEN="585e567a54b65bc9ac77d13688f743e8"
 
 # Target File
-MODEL_URL="https://civitai.com/api/download/models/1277670?type=Model&format=SafeTensor&token=${TOKEN}"
+MODEL_URL="https://civitai.com/api/download/models/2358314?type=Model&format=SafeTensor&token=${TOKEN}"
 TARGET_PATH="/comfyui/models/checkpoints/JANKUTrainedNoobaiRouwei_v60.safetensors"
 
 echo "Downloading JANKU Trained NoobAI Model..."
