@@ -14,5 +14,9 @@ RUN mkdir -p /comfyui/models/checkpoints
 # Run download
 RUN chmod +x /download_model.sh && /download_model.sh
 
+# 2026-11-09 rezonv1: character LoRAs (used by the game's LoraLoader node)
+RUN mkdir -p /comfyui/models/loras
+COPY loras/ /comfyui/models/loras/
+
 # Start Worker
 CMD ["/start.sh"]
